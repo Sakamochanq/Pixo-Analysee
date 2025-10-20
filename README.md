@@ -24,6 +24,10 @@ uv run main.py
 
 #### package
 
+```bash
+uv add opencv-python numpy matplotlib
+```
+
 * numpy
 * matplotlib
 * opencv-python
