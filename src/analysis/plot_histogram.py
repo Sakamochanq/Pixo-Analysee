@@ -2,13 +2,10 @@ from pathlib import Path
 import cv2
 import matplotlib.pyplot as plt
 
-def plot_histogram():
-    # 画像パスを取得
-    root = Path(__file__).resolve().parent
-    img_path = root / "../assets/images/Deer.jpg"
+def plot_histogram(image_path: str):
 
     # グレースケールで読み込み
-    img = cv2.imread(str(img_path), cv2.IMREAD_GRAYSCALE)
+    img = cv2.imread(str(image_path), cv2.IMREAD_GRAYSCALE)
 
     if img is None:
         return
