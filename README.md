@@ -1,9 +1,8 @@
 ### * Pixo-Analysee
 
-Pixo-Analyseeは **自分の研究テーマ** に関連した画像処理・解析の練習を行うためのリポジトリです。私的利用を目的としているため、画像処理において、こちらの環境を使用することは推奨しません。
+Pixo-Analysee（Pixel-Analyzer）は画像処理・解析の練習を行うための**開発環境**です。画像処理・解析において、こちらの環境を使用することは推奨しません。あくまで、処理に使用したスクリプトや画像を保存しておくためのリポジトリとなります。
 
 <br>
-
 
 ### * Environment
 
@@ -13,7 +12,7 @@ uvを使用して環境を構築しています。
 #### install
 
 ```bash
-uv init pixo-analysee
+git clone https://github.com/Sakamochanq/Pixo-Analysee.git
 cd pixo-analysee
 ```
 
@@ -34,3 +33,5 @@ uv run main.py
 ### * Author
 
 [Sakamochanq](https://github.com/Sakamochanq) - Developer
+
+<br>
