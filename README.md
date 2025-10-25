@@ -4,6 +4,14 @@ Pixo-Analysee（Pixel-Analyzer）は画像処理・解析の練習を行うた�
 
 <br>
 
+<div align="center">
+    <a href="#">
+        <img src="./assets/Screenie.png" alt="Pixo-Analysee" width="400"/>
+    </a>
+</div>
+
+<br>
+
 ### * Environment
 
 uvを使用して環境を構築しています。
